@@ -27,5 +27,8 @@ print("Hoeveel appels geven alle schaduw bomen: " + str(BAS))
 print("Hoeveel appels geven alle bomen: " + str(AA))
 print("\n")
 
-print("Je kan dus " + str(AA) + " appels verkopen met ze drieën, maar voor het harde werk mogen jullie de gesneden appels eten :D .")
+AAA = AA / 3
+print("Jullie mogen allemaal " + str(AAA) + " appels verkopen.")
+print("De gesneden appels mogen jullie lekker op eten :D geniet er van.")
+
 print("\n")

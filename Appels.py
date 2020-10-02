@@ -1,3 +1,4 @@
+#appels
 print("\n")
 
 print("333 appelbomen")
@@ -27,8 +28,10 @@ print("Hoeveel appels geven alle schaduw bomen: " + str(BAS))
 print("Hoeveel appels geven alle bomen: " + str(AA))
 print("\n")
 
-AAA = AA / 3
-print("Jullie mogen allemaal " + str(AAA) + " appels verkopen.")
-print("De gesneden appels mogen jullie lekker op eten :D geniet er van.")
+AAA = AA % 3
+B = AA - AAA
+
+print("Jullie mogen allemaal " + str(B) + " appels verkopen.")
+print("De gesneden appels mogen jullie lekker op eten :D , geniet er van (" + str(AAA) + ").")
 
 print("\n")
